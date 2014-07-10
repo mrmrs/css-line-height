@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "line-height"
   ],
   "css-line-height": {
     "type": "git",
