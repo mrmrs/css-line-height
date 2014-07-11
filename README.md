@@ -25,7 +25,7 @@ or download the css on github and include in your project.
 .lh-2     { line-height: 2; }
 .lh-3     { line-height: 3; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .lh-ns       { line-height: 1; }
   .lh-title-ns { line-height: 1.3; }
   .lh-copy-ns  { line-height: 1.5; }
@@ -33,7 +33,7 @@ or download the css on github and include in your project.
   .lh-3-ns     { line-height: 3; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .lh-m       { line-height: 1; }
   .lh-title-m { line-height: 1.3; }
   .lh-copy-m  { line-height: 1.5; }
@@ -41,7 +41,7 @@ or download the css on github and include in your project.
   .lh-3-m     { line-height: 3; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .lh-l       { line-height: 1; }
   .lh-title-l { line-height: 1.3; }
   .lh-copy-l  { line-height: 1.5; }
