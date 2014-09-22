@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-line-height)
 ## File Size
 
 848B line-height.css
-605B line-height.min.css
+605B line-height.min.css 
+181B minified and gzipped
 
 ## The Code
 ```
