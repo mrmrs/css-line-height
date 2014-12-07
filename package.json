@@ -1,5 +1,6 @@
 {
   "name": "css-line-height",
+  "style": "line-height.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-line-height",
   "description": "Css module of single purpose classes for line height",
