@@ -1,88 +1,106 @@
-# CSS LINE HEIGHT
+# css-line-height 0.0.6
 
-  Mobile-first classes for css-line-height.
-  Set the desired css-line-height on any element for any breakpoint.
-  Base class names are namespaced across three breakpoints:
+Css module of single purpose classes for line height
 
-*  -ns = not-small (covers everything larger than mobile)
-*  -m  = medium
-*  -l  = large
+#### Stats
 
-## Install
-Grab the css partial from github and include it in your project or alternatively
-you can install it via npm:
+212 | 20 | 20
+---|---|---
+bytes | selectors | declarations
+
+## Installation
+
+#### With [npm](https://npmjs.com)
+
 ```
 npm install --save-dev css-line-height
 ```
-View on [npm](https://www.npmjs.org/package/css-line-height)
 
+#### With Git
 
-## File Size
-
-848B line-height.css
-605B line-height.min.css
-181B minified and gzipped
-
-## The Code
 ```
-.lh       { line-height: 1; }
+git clone https://github.com/tachyons-css/css-line-height
+```
+
+## Usage
+
+#### Using with [PostCSS](https://github.com/postcss/postcss)
+
+Import the css module
+
+```css
+@import "css-line-height";
+```
+
+Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+
+```sh
+$ npm i -g tachyons-cli
+$ tachyons-cli path/to/css-file.css > dist/t.css
+```
+
+#### Using the CSS
+
+The built CSS is located in the `css` directory. It contains an unminified and minified version.
+You can either cut and paste that css or link to it directly in your html.
+
+```html
+<link rel="stylesheet" href="path/to/module/css/css-line-height">
+```
+
+#### Development
+
+The source CSS files can be found in the `src` directory.
+Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+
+## The CSS
+
+```css
+/*
+   LINE HEIGHT
+*/
+.lh { line-height: 1; }
 .lh-title { line-height: 1.3; }
-.lh-copy  { line-height: 1.5; }
-.lh-2     { line-height: 2; }
-.lh-3     { line-height: 3; }
-
+.lh-copy { line-height: 1.5; }
+.lh-2 { line-height: 2; }
+.lh-3 { line-height: 3; }
 @media screen and (min-width: 48em) {
-  .lh-ns       { line-height: 1; }
-  .lh-title-ns { line-height: 1.3; }
-  .lh-copy-ns  { line-height: 1.5; }
-  .lh-2-ns     { line-height: 2; }
-  .lh-3-ns     { line-height: 3; }
+ .lh-ns { line-height: 1; }
+ .lh-title-ns { line-height: 1.3; }
+ .lh-copy-ns { line-height: 1.5; }
+ .lh-2-ns { line-height: 2; }
+ .lh-3-ns { line-height: 3; }
 }
-
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .lh-m       { line-height: 1; }
-  .lh-title-m { line-height: 1.3; }
-  .lh-copy-m  { line-height: 1.5; }
-  .lh-2-m     { line-height: 2; }
-  .lh-3-m     { line-height: 3; }
+@media screen and (min-width:48em) and (max-width: 64em) {
+ .lh-m { line-height: 1; }
+ .lh-title-m { line-height: 1.3; }
+ .lh-copy-m { line-height: 1.5; }
+ .lh-2-m { line-height: 2; }
+ .lh-3-m { line-height: 3; }
 }
-
-@media screen and (min-width: 64em)  {
-  .lh-l       { line-height: 1; }
-  .lh-title-l { line-height: 1.3; }
-  .lh-copy-l  { line-height: 1.5; }
-  .lh-2-l     { line-height: 2; }
-  .lh-3-l     { line-height: 3; }
+@media screen and (min-width: 64em) {
+ .lh-l { line-height: 1; }
+ .lh-title-l { line-height: 1.3; }
+ .lh-copy-l { line-height: 1.5; }
+ .lh-2-l { line-height: 2; }
+ .lh-3-l { line-height: 3; }
 }
-
 ```
 
-## Author
+## Contributing
 
-[http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
-[http://mrmrs.io - Open source projects](http://mrmrs.io)
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Authors
+
+* [mrmrs](http://mrmrs.io)
+* [johno](http://johnotander.com)
 
 ## License
 
-The MIT License (MIT)
-
-Copyright (c) 2015 @mrmrs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+MIT
 
