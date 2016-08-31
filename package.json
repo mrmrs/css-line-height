@@ -1,7 +1,7 @@
 {
   "name": "css-line-height",
   "style": "line-height.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-line-height",
   "description": "Css module of single purpose classes for line height",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-line-height.css > css/css-line-height.css && tachyons src/css-line-height.css --minify > css/css-line-height.min.css && tachyons src/css-line-height.css --generate-docs --package=../../package.json > readme.md"
