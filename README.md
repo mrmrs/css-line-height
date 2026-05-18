@@ -6,8 +6,8 @@ Functional CSS for line-height
 
 | File | Size |
 |------|------|
-| `dist/line-height.css` | 821 bytes |
-| `dist/line-height.min.css` | 537 bytes (161 Gzipped) |
+| `dist/line-height.css` | 849 bytes |
+| `dist/line-height.min.css` | 565 bytes (165 Gzipped) |
 
 ## Install
 
@@ -39,26 +39,26 @@ npm install css-line-height
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.lh1` | `line-height: 1;` |
-| `.lh2` | `line-height: 1.25;` |
-| `.lh3` | `line-height: 1.5;` |
-| `.lh4` | `line-height: 2;` |
-| `.lh5` | `line-height: .85;` |
-| `.lh1-s` | `line-height: 1;` |
-| `.lh2-s` | `line-height: 1.25;` |
-| `.lh3-s` | `line-height: 1.5;` |
-| `.lh4-s` | `line-height: 2;` |
-| `.lh5-s` | `line-height: .85;` |
-| `.lh1-m` | `line-height: 1;` |
-| `.lh2-m` | `line-height: 1.25;` |
-| `.lh3-m` | `line-height: 1.5;` |
-| `.lh4-m` | `line-height: 2;` |
-| `.lh5-m` | `line-height: .85;` |
-| `.lh1-l` | `line-height: 1;` |
-| `.lh2-l` | `line-height: 1.25;` |
-| `.lh3-l` | `line-height: 1.5;` |
-| `.lh4-l` | `line-height: 2;` |
-| `.lh5-l` | `line-height: .85;` |
+| `.lh` | `line-height: 1;` |
+| `.lh-title` | `line-height: 1.3;` |
+| `.lh-copy` | `line-height: 1.5;` |
+| `.lh-2` | `line-height: 2;` |
+| `.lh-3` | `line-height: 3;` |
+| `.lh-s` | `line-height: 1;` |
+| `.lh-title-s` | `line-height: 1.3;` |
+| `.lh-copy-s` | `line-height: 1.5;` |
+| `.lh-2-s` | `line-height: 2;` |
+| `.lh-3-s` | `line-height: 3;` |
+| `.lh-m` | `line-height: 1;` |
+| `.lh-title-m` | `line-height: 1.3;` |
+| `.lh-copy-m` | `line-height: 1.5;` |
+| `.lh-2-m` | `line-height: 2;` |
+| `.lh-3-m` | `line-height: 3;` |
+| `.lh-l` | `line-height: 1;` |
+| `.lh-title-l` | `line-height: 1.3;` |
+| `.lh-copy-l` | `line-height: 1.5;` |
+| `.lh-2-l` | `line-height: 2;` |
+| `.lh-3-l` | `line-height: 3;` |
 
 ### Responsive
 
@@ -70,7 +70,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.lh1-m` applies the property at the medium breakpoint and above.
+Example: `.lh-m` applies the property at the medium breakpoint and above.
 
 ## Building
 

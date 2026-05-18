@@ -1,85 +1,85 @@
-.lh1 {
+.lh {
   line-height: 1;
 }
 
-.lh2 {
-  line-height: 1.25;
+.lh-title {
+  line-height: 1.3;
 }
 
-.lh3 {
+.lh-copy {
   line-height: 1.5;
 }
 
-.lh4 {
+.lh-2 {
   line-height: 2;
 }
 
-.lh5 {
-  line-height: .85;
+.lh-3 {
+  line-height: 3;
 }
 
 @media screen and (width >= 32em) {
-  .lh1-s {
+  .lh-s {
     line-height: 1;
   }
 
-  .lh2-s {
-    line-height: 1.25;
+  .lh-title-s {
+    line-height: 1.3;
   }
 
-  .lh3-s {
+  .lh-copy-s {
     line-height: 1.5;
   }
 
-  .lh4-s {
+  .lh-2-s {
     line-height: 2;
   }
 
-  .lh5-s {
-    line-height: .85;
+  .lh-3-s {
+    line-height: 3;
   }
 }
 
 @media screen and (width >= 48em) {
-  .lh1-m {
+  .lh-m {
     line-height: 1;
   }
 
-  .lh2-m {
-    line-height: 1.25;
+  .lh-title-m {
+    line-height: 1.3;
   }
 
-  .lh3-m {
+  .lh-copy-m {
     line-height: 1.5;
   }
 
-  .lh4-m {
+  .lh-2-m {
     line-height: 2;
   }
 
-  .lh5-m {
-    line-height: .85;
+  .lh-3-m {
+    line-height: 3;
   }
 }
 
 @media screen and (width >= 96em) {
-  .lh1-l {
+  .lh-l {
     line-height: 1;
   }
 
-  .lh2-l {
-    line-height: 1.25;
+  .lh-title-l {
+    line-height: 1.3;
   }
 
-  .lh3-l {
+  .lh-copy-l {
     line-height: 1.5;
   }
 
-  .lh4-l {
+  .lh-2-l {
     line-height: 2;
   }
 
-  .lh5-l {
-    line-height: .85;
+  .lh-3-l {
+    line-height: 3;
   }
 }
